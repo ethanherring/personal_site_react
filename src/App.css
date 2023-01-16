@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.Contact {
+  text-align: center;
+}
+
+.Ethan-logo {
+  height: 25vmin;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+
+
+.App-header {
+  /* background-color: #282c34; */
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.Contact-header {
+  /* background-color: #282c34; */
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-footer {
+  /* background-color: #282c34; */
+  background-color: whitesmoke;
+  max-height: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.avatar-img {
+  background-size: cover;
+  object-fit: cover;
+}
+
+.card-background-color {
+  /* background-color: rgb(188, 186, 186) !important; */
+  background-color: rgb(133, 133, 133) !important;
+  border-radius: 20px;
+  color: black;
+  padding: 20px;
+}
+
+
+
+/* Style Navbar */
+.App-Bar-Nav {
+  background-color: #00008B !important;
+}
+
+
+
+
+

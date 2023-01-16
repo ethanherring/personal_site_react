@@ -1,0 +1,22 @@
+[
+    {
+        "company": "Blue Origin ('22 - Present)",
+        "role": "SCBI Analyst III",
+        "accomplishments": ["Automated Open PO Reporting with AWS Lambda Python", "Ideated and Implemented New Suite of Metrics for Measuring Procurement Performance"]
+    },
+    {
+        "company": "Textron Aviation ('22)",
+        "role": "Process Leader",
+        "accomplishments": ["Raw Materials Utilization Project", "Database Creation & Data Migration from SQL Server to Hadoop Hive Cluster"]
+    },
+    {
+        "company": "Textron Systems ('21)",
+        "role": "Procurement Analyst",
+        "accomplishments": []
+    },
+    {
+        "company": "Bell Helicopter ('20 - '21)",
+        "role": "Integrated Business Planning Process Owner",
+        "accomplishments": []
+    }
+]

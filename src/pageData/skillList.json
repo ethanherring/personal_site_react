@@ -1,0 +1,19 @@
+[
+    {
+        "skill": "Data",
+        "projects": ["SQL", "Python", "Pandas"]
+    },
+    
+    {
+        "skill": "Development",
+        "projects": ["Full Stack SCM Docker App", "Node JS", "Docker", "AWS Lambda"]
+    },
+    {
+        "skill": "AWS Lambda",
+        "projects": ["Open PO Reporting Automation"]
+    },
+    {
+        "skill": "Git & Gitlab",
+        "projects": ["Work in repositories"]
+    }
+]
