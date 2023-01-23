@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8a8811b.css",
-    "main.js": "/static/js/main.53ebff1c.js",
+    "main.css": "/static/css/main.e30bbae7.css",
+    "main.js": "/static/js/main.19d52a4c.js",
     "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
+    "static/media/geometric.jpg": "/static/media/geometric.c883eb5c6b03cf775a40.jpg",
     "static/media/ethan.jpg": "/static/media/ethan.e1be43048bbdbcbef8c6.jpg",
     "static/media/bellLogo.png": "/static/media/bellLogo.0f88161caca904a20591.png",
     "static/media/Blue Origin Logo.png": "/static/media/Blue Origin Logo.ac7d155e8e1fe33b84c3.png",
@@ -10,12 +11,12 @@
     "static/media/dockerLogo.png": "/static/media/dockerLogo.82153b5aad16f392b3d2.png",
     "static/media/codingLogo.png": "/static/media/codingLogo.44f08998177d241384cf.png",
     "index.html": "/index.html",
-    "main.a8a8811b.css.map": "/static/css/main.a8a8811b.css.map",
-    "main.53ebff1c.js.map": "/static/js/main.53ebff1c.js.map",
+    "main.e30bbae7.css.map": "/static/css/main.e30bbae7.css.map",
+    "main.19d52a4c.js.map": "/static/js/main.19d52a4c.js.map",
     "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8a8811b.css",
-    "static/js/main.53ebff1c.js"
+    "static/css/main.e30bbae7.css",
+    "static/js/main.19d52a4c.js"
   ]
 }
