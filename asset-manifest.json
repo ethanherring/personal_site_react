@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e30bbae7.css",
-    "main.js": "/static/js/main.901755a2.js",
-    "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
-    "static/media/geometric.jpg": "/static/media/geometric.c883eb5c6b03cf775a40.jpg",
-    "static/media/ethan.jpg": "/static/media/ethan.e1be43048bbdbcbef8c6.jpg",
-    "static/media/bellLogo.png": "/static/media/bellLogo.0f88161caca904a20591.png",
-    "static/media/Blue Origin Logo.png": "/static/media/Blue Origin Logo.ac7d155e8e1fe33b84c3.png",
-    "static/media/Textron Aviation Logo.png": "/static/media/Textron Aviation Logo.277d4cfa340f285812d7.png",
-    "static/media/dockerLogo.png": "/static/media/dockerLogo.82153b5aad16f392b3d2.png",
-    "static/media/codingLogo.png": "/static/media/codingLogo.44f08998177d241384cf.png",
-    "index.html": "/index.html",
-    "main.e30bbae7.css.map": "/static/css/main.e30bbae7.css.map",
-    "main.901755a2.js.map": "/static/js/main.901755a2.js.map",
-    "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
+    "main.css": "/personal_site_react/static/css/main.6e17bc5b.css",
+    "main.js": "/personal_site_react/static/js/main.d993b1c6.js",
+    "static/js/787.3ba5e41c.chunk.js": "/personal_site_react/static/js/787.3ba5e41c.chunk.js",
+    "static/media/geometric.jpg": "/personal_site_react/static/media/geometric.c883eb5c6b03cf775a40.jpg",
+    "static/media/ethan.jpg": "/personal_site_react/static/media/ethan.e1be43048bbdbcbef8c6.jpg",
+    "static/media/bellLogo.png": "/personal_site_react/static/media/bellLogo.0f88161caca904a20591.png",
+    "static/media/Blue Origin Logo.png": "/personal_site_react/static/media/Blue Origin Logo.ac7d155e8e1fe33b84c3.png",
+    "static/media/Textron Aviation Logo.png": "/personal_site_react/static/media/Textron Aviation Logo.277d4cfa340f285812d7.png",
+    "static/media/dockerLogo.png": "/personal_site_react/static/media/dockerLogo.82153b5aad16f392b3d2.png",
+    "static/media/codingLogo.png": "/personal_site_react/static/media/codingLogo.44f08998177d241384cf.png",
+    "index.html": "/personal_site_react/index.html",
+    "main.6e17bc5b.css.map": "/personal_site_react/static/css/main.6e17bc5b.css.map",
+    "main.d993b1c6.js.map": "/personal_site_react/static/js/main.d993b1c6.js.map",
+    "787.3ba5e41c.chunk.js.map": "/personal_site_react/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e30bbae7.css",
-    "static/js/main.901755a2.js"
+    "static/css/main.6e17bc5b.css",
+    "static/js/main.d993b1c6.js"
   ]
 }
