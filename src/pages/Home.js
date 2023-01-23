@@ -1,6 +1,4 @@
 import JobComponent from '../components/JobComponent';
-import SkillsComponent from '../components/SkillsComponent';
-import ScrollTopButton from '../components/ScrollTopButton';
 import '../App.css';
 
 
@@ -12,21 +10,13 @@ function HomePage() {
                 {/* All Job Cards */}
                 <JobComponent />
                 {/* All Skill Cards */}
-                <SkillsComponent />
-
+                {/* <SkillsComponent /> */}
         </header>
-        <body>
+        <body className="App-body">
+          
 
 
         </body>
-
-        <footer className="App-footer">
-          <p>Created by Ethan Herring - 2023</p>
-          {/* Adds functionality to return to top of page */}
-          <div className="scrollTopButton-container">
-            <ScrollTopButton />
-          </div>
-        </footer>
 
       </div>
 

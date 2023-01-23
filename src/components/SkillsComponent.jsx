@@ -4,7 +4,6 @@ import { Card, Grid, CardActions, CardContent, CardMedia, Button, Typography, Sl
 
 
 //Import Images
-import ethan from '../ethan.jpg' // relative path to image
 import dockerImage from '../dockerLogo.png' // relative path to image 
 import dataImage from '../dataLogo.png' // relative path to image
 import codingLogo from '../codingLogo.png' // relative path to image  
@@ -31,11 +30,15 @@ const Companies = () => {
   
 
   return (
-    <div className="center-container">
+    
       <Grid container lg={8} md={12} spacing={2}>
         <Grid item xs={12}>
         <CardContent>
-            <Grid container direction="row" alignItems="center" justifyContent="center">
+            <Grid container 
+              direction="row" 
+              alignItems="center" 
+              justifyContent="center"
+              style={{color: "white"}} >
               <Typography>
                 <h2>🛠️ Skills</h2>
               </Typography>
@@ -43,7 +46,7 @@ const Companies = () => {
           </CardContent>
         </Grid>
         {skillList.map((skill) => (
-          <Grid item md={3} sm={6} key={skill.id}>
+          <Grid item md={3} sm={6} xs={8} key={skill.id}>
             <CardContent>
               <Grid container direction="row" 
               alignItems="center" 
@@ -75,7 +78,7 @@ const Companies = () => {
         
 
       </Grid>
-    </div>
+  
   );
 }
 

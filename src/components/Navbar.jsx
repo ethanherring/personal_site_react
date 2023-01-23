@@ -36,14 +36,21 @@ const Navbar = () => {
           onClose={handleClose}
           anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
           transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+          className="nav-menu-dropdown"
         >
-          <MenuItem onClick={handleClose}>
-            <a href='/' style={{ textDecoration: 'none', color: 'black' }}>Home</a>
+          <MenuItem 
+            onClick={handleClose}
+            className="nav-menu-item">
+              <a href='/' style={{ textDecoration: 'none', color: 'black' }}>Home</a>
           </MenuItem>
-          <MenuItem onClick={handleClose}>
-            <a href='/about' style={{ textDecoration: 'none', color: 'black' }}>About</a>
+          <MenuItem 
+            onClick={handleClose}
+            className="nav-menu-item">
+              <a href='/about' style={{ textDecoration: 'none', color: 'black' }}>About</a>
           </MenuItem>
-          <MenuItem onClick={handleClose}>
+          <MenuItem 
+            onClick={handleClose}
+            className="nav-menu-item">
             <a href="/contact" style={{ textDecoration: 'none', color: 'black' }}>Contact</a>
           </MenuItem>
         </Menu>

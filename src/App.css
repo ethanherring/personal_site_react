@@ -12,11 +12,15 @@
   border-radius: 50%;
 }
 
+body {
+  /* background-image: url('mesh.jpg'); */
+  background-image: url('geometric.jpg');
+  /* background-image: url('lights.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-
-.App-header {
-  /* background-color: #282c34; */
-  background-color: whitesmoke;
+/* .App-body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,11 +28,21 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
-}
+}  */
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+} 
 
 .Contact-header {
   /* background-color: #282c34; */
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,15 +53,12 @@
 }
 
 .App-footer {
-  /* background-color: #282c34; */
-  background-color: whitesmoke;
-  max-height: 2vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: white;
 }
 
 .App-link {
@@ -66,11 +77,19 @@
   object-fit: cover;
 }
 
-.card-background-color {
-  /* background-color: rgb(188, 186, 186) !important; */
+/* .card-background-color {
   background-color: rgb(133, 133, 133) !important;
   border-radius: 20px;
   color: black;
+  padding: 20px;
+} */
+
+.card-background-color {
+  backdrop-filter: blur(17px) saturate(200%);
+  -webkit-backdrop-filter: blur(17px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.44);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
   padding: 20px;
 }
 
@@ -78,7 +97,25 @@
 
 /* Style Navbar */
 .App-Bar-Nav {
-  background-color: #00008B !important;
+  /* background-color: #00008B !important; */
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  /* border: 1px solid rgba(209, 213, 219, 0.3); */
+}
+
+
+
+.visit-message-blur {
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+
+
+.scrollTopButton-container {
+  padding: 20px;
 }
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
@@ -25,10 +25,10 @@ const ScrollTopButton = () => {
     return (
       showScroll && (
         <div 
-        style={{}}
+        style={{color: "white"}}
         onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
           {/* <i class="fas fa-arrow-up"></i> */}
-          {<FontAwesomeIcon icon={faArrowUp} />}
+          {<FontAwesomeIcon icon={faChevronUp} />}
         </div>
       )
     );
