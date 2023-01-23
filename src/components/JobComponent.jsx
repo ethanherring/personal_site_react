@@ -86,13 +86,13 @@ const Companies = (props) => {
               <Typography>
                 <h1>Ethan Herring</h1>
                 <p>Supply Chain Business Intelligence Analyst III @ Blue Origin 🚀 | Passionate About Translating Large Data into Actionable Insights</p>
-                <a href="https://www.linkedin.com/in/ethan-herring-a00448132/">
+                <a href="https://www.linkedin.com/in/ethan-herring-a00448132/" target="_blank" rel="noreferrer">
                   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" style={{width: "25px", height: "25px", paddingRight: "10px"}}/>
                 </a>
-                <a href="https://github.com/ethanherring">
+                <a href="https://github.com/ethanherring" target="_blank" rel="noreferrer">
                   <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" style={{width: "25px", height: "25px", paddingRight: "10px"}}/>
                 </a>
-                <a href="mailto: ethanlherring@gmail.com">
+                <a href="mailto: ethanlherring@gmail.com" target="_blank" rel="noreferrer">
                   <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="" style={{width: "25px", height: "25px", paddingRight: "10px"}}/>
                 </a>
               </Typography>
