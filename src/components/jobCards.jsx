@@ -6,7 +6,6 @@ import jobList from '../pageData/jobList.json';
 
 
 //Import Images
-import ethan from '../ethan.jpg' // relative path to image
 import blueOrigin from '../Blue Origin Logo.png' // relative path to image 
 import textronAviation from '../Textron Aviation Logo.png' // relative path to image
 import textronSystems from '../Textron Systems Logo.png' // relative path to image
@@ -43,7 +42,7 @@ const companyImagePicker = (props) => {
 return (
     <>
     {jobList.map((job) => (
-          <Zoom in={expanded}>
+          
             <Grid item md={3} sm={6} xs={8} key={job.id}>
               <CardContent>
                 <Grid container direction="row" 
@@ -72,7 +71,6 @@ return (
                 </Grid>
               </CardContent>
             </Grid>
-          </Zoom>
         ))}
     </>
 );
